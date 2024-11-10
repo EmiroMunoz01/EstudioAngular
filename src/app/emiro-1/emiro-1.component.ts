@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './emiro-1.component.css'
 })
 export class Emiro1Component {
-  tituloNuevo = "Nuevo titulo Emiro1"
+  tituloNuevo = "Nuevo titulo Emiro100"
 }
