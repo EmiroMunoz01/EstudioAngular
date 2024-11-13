@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class IfElseComponent {
   isAutenticado: boolean = false;
 
-  alternarAutenticacion() {
+  alternarAutenticacion(): void {
     this.isAutenticado = !this.isAutenticado;
   }
 }

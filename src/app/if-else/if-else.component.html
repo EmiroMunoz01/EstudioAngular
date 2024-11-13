@@ -1,1 +1,10 @@
-<p>if-else works!</p>
+<div class="container mt-5 text-center">
+  <h2>Estado de autenticacion</h2>
+  @if (isAutenticado) {
+  <p class="text-success">Estas autenticado</p>
+  }@else {
+  <p class="text-danger">No estas autenticado</p>
+  }
+
+  <button class="btn btn-primary mt-3" (click)="alternarAutenticacion()">Alternar estado de autenticacion</button>
+</div>
