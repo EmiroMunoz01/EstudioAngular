@@ -1,0 +1,9 @@
+<div class="container">
+  <label for="">Texto inicial</label>
+  <input type="text" (input)="capturarEvento($event)"/>
+</div>
+
+<div>
+  <label for="">Replicador</label>
+  <input type="text" readonly [value]="texto"/>
+</div>

@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center">
+  <div>
+    <label for="inputTexto">Mensaje</label>
+    <input
+      type="text"
+      for="inputTexto"
+      [(ngModel)]="saludo"
+      autocomplete="off"
+    />
+  </div>
+  <div>
+    <div class="alert alert-success">
+      {{ saludo }}
+    </div>
+  </div>
+</div>

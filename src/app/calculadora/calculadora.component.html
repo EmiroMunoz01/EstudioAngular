@@ -1,0 +1,16 @@
+<div>
+  <label for="">a</label>
+  <input type="number" class="" [(ngModel)]="variableA" />
+
+  <label for="">b</label>
+  <input type="number" class="" [(ngModel)]="variableB" />
+
+  <button (click)="sumar()">Sumar</button>
+  <button (click)="restar()">Restar</button>
+  <button (click)="multiplicar()">Multiplicar</button>
+  <div class="text-danger">
+    <label for="">El resultado es</label>
+
+    <p>{{resultado}}</p>
+  </div>
+</div>
