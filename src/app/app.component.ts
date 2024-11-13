@@ -11,11 +11,12 @@ import { Replicador2Component } from "./replicador-2/replicador-2.component";
 import { SaludarComponenteComponent } from "./saludar-componente/saludar-componente.component";
 import { CalculadoraComponent } from "./calculadora/calculadora.component";
 import { IfElseComponent } from "./if-else/if-else.component";
+import { LocalReferenciaComponent } from "./local-referencia/local-referencia.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent],
+  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
