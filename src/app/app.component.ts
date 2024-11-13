@@ -12,15 +12,16 @@ import { SaludarComponenteComponent } from "./saludar-componente/saludar-compone
 import { CalculadoraComponent } from "./calculadora/calculadora.component";
 import { IfElseComponent } from "./if-else/if-else.component";
 import { LocalReferenciaComponent } from "./local-referencia/local-referencia.component";
+import { A1DirectivaForComponent } from "./a1-directiva-for/a1-directiva-for.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent],
+  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Directiva If Else';
+  title = 'Angular 18';
 }
 
