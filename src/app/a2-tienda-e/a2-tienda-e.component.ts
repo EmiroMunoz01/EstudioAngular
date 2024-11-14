@@ -1,39 +1,36 @@
 import { Component } from '@angular/core';
 import { Producto } from './producto.model';
-import { FormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-a2-tienda',
+  selector: 'app-a2-tienda-e',
   standalone: true,
-  imports: [FormsModule, NgFor],
-  templateUrl: './a2-tienda.component.html',
-  styleUrl: './a2-tienda.component.css',
+  imports: [NgFor, FormsModule],
+  templateUrl: './a2-tienda-e.component.html',
+  styleUrl: './a2-tienda-e.component.css',
 })
-export class A2TiendaComponent {
-
+export class A2TiendaEComponent {
   productos: Producto[] = [
-    new Producto('Pantalon', 130),
-    new Producto('Camisa', 50),
+    new Producto('iPhone 16', 160),
+    new Producto('Samsung', 120),
   ];
 
   descripcionInput: string = '';
   precioInput: number | null = null;
 
   agregarProducto() {
-    //validaremos que sean valores correctos
     if (
       this.descripcionInput.trim() === '' ||
       this.precioInput == null ||
       this.precioInput <= 0
     ) {
-      console.log('Debe ingresar una descripcion y un precio validos.');
+      console.log('Existen errores en el ingreso de los datos');
       return;
     }
+
     const producto = new Producto(this.descripcionInput, this.precioInput);
     this.productos.push(producto);
-
-    //limpiaremos los campos de entrada de datos
     this.descripcionInput = '';
     this.precioInput = null;
   }
