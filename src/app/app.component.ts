@@ -16,11 +16,12 @@ import { A1DirectivaForComponent } from "./a1-directiva-for/a1-directiva-for.com
 import { A2TiendaComponent } from "./a2-tienda/a2-tienda.component";
 import { A3ListadoProductosComponent } from "./a3-listado-productos/a3-listado-productos.component";
 import { A2TiendaEComponent } from "./a2-tienda-e/a2-tienda-e.component";
+import { A4DecoradorInputComponent } from "./a4-decorador-input/a4-decorador-input.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent],
+  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent, A4DecoradorInputComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

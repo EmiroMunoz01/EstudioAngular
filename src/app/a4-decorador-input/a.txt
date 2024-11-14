@@ -1,0 +1,2 @@
+Empezaremos con la comunicacion entre componentes, iniciaremos con el decorador @input, me permite
+enviar datos del componente padre al componente hijo, importante, se debe importar
