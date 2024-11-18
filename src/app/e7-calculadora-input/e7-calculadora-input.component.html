@@ -1,0 +1,9 @@
+<p>e7-calculadora-input works!</p>
+
+<input [(ngModel)]="variableA" type="number">
+<input [(ngModel)]="variableB" type="number">
+
+<button type="submit" (click)="sumar()">Sumar</button>
+
+<app-resultado [resultado] = "resultadoPadre"></app-resultado>
+
