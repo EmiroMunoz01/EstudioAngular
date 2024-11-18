@@ -1,0 +1,11 @@
+<div class="container">
+  <h3 class="text-primary"></h3>
+
+  <app-hijo (notificarPadre)="recibirNotificacion($event)"></app-hijo>
+
+  <div>
+  @if(mensaje){
+    <p>{{mensaje}}</p>
+  }
+  </div>
+</div>

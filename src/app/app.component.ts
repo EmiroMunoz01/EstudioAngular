@@ -17,11 +17,13 @@ import { A2TiendaComponent } from "./a2-tienda/a2-tienda.component";
 import { A3ListadoProductosComponent } from "./a3-listado-productos/a3-listado-productos.component";
 import { A2TiendaEComponent } from "./a2-tienda-e/a2-tienda-e.component";
 import { A4DecoradorInputComponent } from "./a4-decorador-input/a4-decorador-input.component";
+import { A5DecoradorOutputComponent } from "./a5-decorador-output/a5-decorador-output.component";
+import { E6CalculadoraaComponent } from "./e6-calculadoraa/e6-calculadoraa.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent, A4DecoradorInputComponent],
+  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent, A4DecoradorInputComponent, A5DecoradorOutputComponent, E6CalculadoraaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
