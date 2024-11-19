@@ -20,11 +20,14 @@ import { A4DecoradorInputComponent } from "./a4-decorador-input/a4-decorador-inp
 import { A5DecoradorOutputComponent } from "./a5-decorador-output/a5-decorador-output.component";
 import { E6CalculadoraaComponent } from "./e6-calculadoraa/e6-calculadoraa.component";
 import { E7CalculadoraInputComponent } from "./e7-calculadora-input/e7-calculadora-input.component";
+import { E8ViewChildComponent } from "./e8-view-child/e8-view-child.component";
+import { E9ViewChildComponent } from "./e9-view-child/e9-view-child.component";
+import { E10TiendaDecoradoresComponent } from "./e10-tienda-decoradores/e10-tienda-decoradores.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent, A4DecoradorInputComponent, A5DecoradorOutputComponent, E6CalculadoraaComponent, E7CalculadoraInputComponent],
+  imports: [RouterOutlet, Emiro1Component, ComponenteInlineComponent, InterpolacionComponent, PadreComponent, HijoComponent, EventBindingComponent, ReplicadorComponent, Replicador2Component, SaludarComponenteComponent, CalculadoraComponent, IfElseComponent, LocalReferenciaComponent, A1DirectivaForComponent, A2TiendaComponent, A3ListadoProductosComponent, A2TiendaEComponent, A4DecoradorInputComponent, A5DecoradorOutputComponent, E6CalculadoraaComponent, E7CalculadoraInputComponent, E8ViewChildComponent, E9ViewChildComponent, E10TiendaDecoradoresComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
