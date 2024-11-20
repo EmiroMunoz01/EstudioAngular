@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { ComponenteHijoComponent } from "./componente-hijo/componente-hijo.component";
+import { ComponenteHijoComponent } from './componente-hijo/componente-hijo.component';
 import { Producto } from './producto.model';
 
 @Component({
@@ -18,12 +18,13 @@ import { Producto } from './producto.model';
   styleUrl: './e10-tienda-decoradores.component.css',
 })
 export class E10TiendaDecoradoresComponent {
-
   productos: Producto[] = [
     new Producto('Pantalon', 130),
     new Producto('Camisa', 50),
   ];
 
-
-
+  //recibimos el producto en la variable event
+  agregarProducto(producto: Producto) {
+    this.productos.push(producto);
+  }
 }
