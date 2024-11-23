@@ -1,0 +1,13 @@
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <ul class="list-group" *ngFor='let usuario of usuarios'>
+
+      @if (usuarios.length > 0) {
+      <li class="list-group-item">{{usuario.id}}, {{usuario.name}}</li>
+      } @else {
+      <li class="list-group-item text-danger">No hay usuarios disponibles </li>
+      }
+
+    </ul>
+  </div>
+</div>

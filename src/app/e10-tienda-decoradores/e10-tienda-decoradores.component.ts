@@ -1,3 +1,4 @@
+import { ProductoService } from './../producto.service';
 import {
   Component,
   ElementRef,
@@ -18,13 +19,12 @@ import { Producto } from './producto.model';
   styleUrl: './e10-tienda-decoradores.component.css',
 })
 export class E10TiendaDecoradoresComponent {
-  productos: Producto[] = [
-    new Producto('Pantalon', 130),
-    new Producto('Camisa', 50),
-  ];
+  productos: Producto[] = [];
 
-  //recibimos el producto en la variable event
-  agregarProducto(producto: Producto) {
-    this.productos.push(producto);
+  constructor(private productoService: ProductoService) {}
+
+  ngOnInit() {
+    //inicializar los productos
+    this.productos = this.productoService.productos;
   }
 }

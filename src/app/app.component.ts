@@ -24,6 +24,7 @@ import { E8ViewChildComponent } from './e8-view-child/e8-view-child.component';
 import { E9ViewChildComponent } from './e9-view-child/e9-view-child.component';
 import { E10TiendaDecoradoresComponent } from './e10-tienda-decoradores/e10-tienda-decoradores.component';
 import { PrimerServicioService } from './primer-servicio.service';
+import { E11ListadoUsuariosComponent } from "./e11-listado-usuarios/e11-listado-usuarios.component";
 
 @Component({
   selector: 'app-root',
@@ -53,7 +54,8 @@ import { PrimerServicioService } from './primer-servicio.service';
     E8ViewChildComponent,
     E9ViewChildComponent,
     E10TiendaDecoradoresComponent,
-  ],
+    E11ListadoUsuariosComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
